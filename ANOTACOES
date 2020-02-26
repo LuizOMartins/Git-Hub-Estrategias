@@ -1,0 +1,61 @@
+Isseus:
+- melhorias
+- bug
+- organizar tarefas
+
+FORK:faz clone de repoditório de outra pessoa.
+
+Credenciais do Windows:
+-salva quando é utlizado alguma vez.
+
+Pull Request: "pedido".
+
+Unir commits:
+git rebase -i head~3
+->unir atual com 3  anteriores.
+
+1° git rebase -i <hashcommit >
+
+2° antiro para novo.
+pick-> manter
+s- junta ao anterior
+
+3° mensagem.
+
+*pegar alterações de um commit. (outra branch).
+git cherry-pick <hash_commit>
+
+Encontrar Bug:
+
+git bisect
+- bad
+- good
+- reset
+-> viajando por commits
+
+git show <hash_commit> ->  
+
+head:local atual.
+
+Encontrando o culpado:
+git blame <nome arquivo>
+
+git log --graph
+-log mais visual
+
+git flow: estrategia de organização de branch.
+
+branches envolvidas:
+- features
+- hotfix
+- release
+- developes
+- master
+
+Ferramentas:
+git cola
+git desktop
+git kraken
+
+Hooks: eventos no git.
+
